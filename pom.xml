@@ -100,12 +100,12 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus-releases</id>
+	      <id>nexus-deployment</id>
 	      <name>Maven Release Repository</name>
 	      <url>http://15.207.54.12:8081/repository/Test-Release/</url>
 	    </repository>
 	    <snapshotRepository>
-	      <id>nexus-snapshots</id>
+	      <id>nexus-deployment</id>
 	      <name>Maven Snapshot Repository </name>
 	      <url>http://15.207.54.12:8081/repository/Test-Snapshot/</url>
 	    </snapshotRepository>
