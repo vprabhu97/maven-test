@@ -100,14 +100,14 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.126.100.204:8081/repository/Test-Release/</url>
+	      <id>nexus-releases</id>
+	      <name>Maven Release Repository</name>
+	      <url>http://15.207.54.12:8081/repository/Test-Release/</url>
 	    </repository>
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.100.204:8081/repository/Test-Snapshot/</url>
+	      <id>nexus-snapshots</id>
+	      <name>Maven Snapshot Repository </name>
+	      <url>http://15.207.54.12:8081/repository/Test-Snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
